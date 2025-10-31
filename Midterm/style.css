@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#index {
+  background-color: #e3dec3;
+  h1 {
+    margin: auto;
+    color: #422205;
+    text-align: center;
+    font-size: 100px;
+  }
+  h2 {
+    margin: auto;
+    color: #422205;
+    text-align: center;
+    font-size: 50px;
+  }
+  a {
+    color: #422205;
+    text-decoration: none;
+  }
+  a:hover {color: olive}
+}
+
+#Worm {
+  background-color: black;
+  h1 {
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
+}
+
+#Snow {
+  background-color: rgb(150,200,255);
+  h1{
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
+}
+
+#RandCol {
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+
+#Sun {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+#homeClickLink{
+  text-decoration: none;
+  display: none;
+  text-align: center;
+}
+
+#Snow {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}

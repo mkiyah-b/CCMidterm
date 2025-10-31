@@ -12,7 +12,9 @@ function draw() {
   stroke('#e0ca96')
   fill('#e0ca96')
    rect(0,0,width,yV)
-  yV++;
+  if (yV < height) {
+    yV++;
+  }
   if (yV >= height/4 && wordV <=height/2) {
     wordV++;
   }
@@ -27,4 +29,5 @@ function draw() {
   if (pHit) {
     window.location.href = 'page1.html'
   }
+
 }

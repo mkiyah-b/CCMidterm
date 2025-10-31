@@ -24,10 +24,7 @@ function draw() {
   textSize(width/10)
   text("Once Upon a Time...", width/2,wordV)
   if (yV == height) {
-    pHit = true;
-  }
-  if (pHit) {
     window.location.href = 'page1.html'
   }
-
 }
+

@@ -30,8 +30,10 @@ function draw() {
     //window.location.href = 'page1.html'
     link.style('display: inline-block')
     link.style('color: #4d2b05')
+    link.style('size: width/10')
     link.position(width/2, height/1.5)
   }
 }
+
 
 
